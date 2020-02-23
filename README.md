@@ -399,6 +399,8 @@ You are probably better off with [`Navigator.NavigationBar`](http://facebook.git
 
 Simply use `Icon.ToolbarAndroid` instead of `React.ToolbarAndroid`, this is composition of the underlying `ToolbarAndroid` component that works the same but any `*icon` property also takes `*iconName`:
 
+- add @react-native-community/toolbar-android to dependencies
+
 | Prop                   | Description                                                                                                                        | Default |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------- |
 | **`logoName`**         | Name of the navigation logo icon (similar to `ToolbarAndroid` `logo`)                                                              | _None_  |
@@ -617,6 +619,8 @@ function TabBarView(props) {
 ```
 
 ### ToolbarAndroid
+
+Don't forgot add @react-native-community/toolbar-android to dependencies
 
 ```js
 import Icon from 'react-native-vector-icons/Ionicons';
